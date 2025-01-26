@@ -1,0 +1,32 @@
+\documentclass[letterpaper, fontsize=11pt, nodate]{sizzle}
+\title{Mind and Cognition}
+\author{Jack}
+\date{Last Updated: \today}
+
+% TODO: Add margin comments
+
+% Footnotes \framedfootnote
+\usepackage[perpage]{footmisc}
+
+% Numbering of equations reset for each section
+\numberwithin{equation}{section}
+
+\begin{document}
+\maketitle
+\begin{quote}
+    Notes on mind and cognition.
+
+    Currently reading through \cite{pomac}. 
+\end{quote}
+
+\tableofcontents
+
+\newpage
+
+% lectures
+\include{lectures/against-dualism.tex}
+
+\bibliographystyle{alpha}
+\bibliography{bibliography}
+
+\end{document}
